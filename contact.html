@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" data-dark>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/Logo Amazing Events.png" type="image/x-icon">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <title>Amazing Events</title>
+</head>
+
+<body data-dark>
+    <header class="d-flex align-items-center" data-dark>
+        <div class="container-fluid d-flex align-items-center justify-content-between w-100">
+            <div class="navb-logo">
+                <img src="./assets/img/Logo Amazing Events.png" alt="Logo Amazing Events">
+            </div>
+            <div class="navb-items d-lg-flex align-items-center justify-content-end d-none">
+                <div class="item text-center">
+                    <a href="./index.html" data-dark>Home</a>
+                </div>
+                <div class="item text-center">
+                    <a href="./upComing_events.html" data-dark>Upcoming Events</a>
+                </div>
+                <div class="item text-center">
+                    <a href="./past_events.html" data-dark>Past Events</a>
+                </div>
+                <div class="item text-center">
+                    <a href="./stats.html" data-dark>Stats</a>
+                </div>
+                <div class="item-button ">
+                    <a class="d-flex align-items-center justify-content-center" href="#"
+                        type="button" data-dark>Contact</a>
+                </div>
+            </div>
+            <!-- Button trigger modal -->
+            <div class="mobile-toggler d-lg-none">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#navbModal">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="navbModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header d-flex align-items-center justify-content-between">
+                            <img src="./assets/img/Logo Amazing Events.png" alt="Logo">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
+                                    class="fa-solid fa-xmark"></i></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="modal-line d-flex align-items-center justify-content-start w-100">
+                                <i class="fa-solid fa-house"></i><a href="./index.html">Home</a>
+                            </div>
+                            <div class="modal-line d-flex align-items-center justify-content-start w-100">
+                                <i class="fa-solid fa-calendar-days"></i><a href="./upComing_events.html">Upcoming
+                                    Events</a>
+                            </div>
+                            <div class="modal-line d-flex align-items-center justify-content-start w-100">
+                                <i class="fa-solid fa-calendar-days"></i><a href="./past_events.html">Past Events</a>
+                            </div>
+                            <div class="modal-line d-flex align-items-center justify-content-start w-100">
+                                <i class="fa-solid fa-file-lines"></i><a href="./stats.html">Stats</a>
+                            </div>
+
+                            <a href="#"
+                                class="navb-button d-flex align-items-center justify-content-center w-100"
+                                type="button">Contact</a>
+
+                        </div>
+                        <div class="mobile-modal-footer d-flex align-items-center justify-content-between">
+                            <a target="_blank" href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a target="_blank" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a target="_blank" href="#"><i class="fa-brands fa-github"></i></a>
+                            <a target="_blank" href="#"><i class="fa-brands fa-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="mx-0  px-0 w-100 mb-5">
+        <div id="carouselExample" class="carousel slide h-20 w-100">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/Cinema.jpg" class="d-block img-banner w-100"
+                        alt="banner 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="display-6 pb-4">Contact Us</h1>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="./assets/img/Costume_Party.jpg" class="d-block img-banner w-100" alt="banner 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="display-6 pb-4">Contact Us</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/Food_Fair.jpg" class="d-block img-banner w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="display-6 pb-4">Contact Us</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/Marathon.jpg" class="d-block img-banner w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="display-6 pb-4">Contact Us</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/Museum_Tour.jpg" class="d-block img-banner w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="display-6 pb-4">Contact Us</h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/Music_Concert.jpg" class="d-block img-banner w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="display-6 pb-4">Contact Us</h1>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="container contenedor-formulario mt-5 w-25 ">
+            <div class="row">
+                <div class="col">
+                    <form action="" method="get">
+                        <fieldset>
+                            <div>
+                                <div class=" mb-4">
+                                    <label class="titulo-etiqueta form-label" for="first_name">Name:</label>
+                                    <input class="form-control" type="text" name="first_name" id="first_name" title="Nombre solo acepta letras"
+                                        pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+                                </div>
+                                <div class="mb-4">
+                                    <label class="titulo-etiqueta form-label" for="email">Email:</label>
+                                    <input class="form-control" type="email" name="email" id="email" title="Email incorrecto"
+                                        pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+                                </div>
+                                <div >
+                                    <label class="titulo-etiqueta" for="address">Mensagge:</label>
+                                    <textarea class="d-grid col-sm-12" style="height: 100px;" name="mensagge" id="" cols="26" rows="5"></textarea>
+                                </div>
+                            </div>
+                        </fieldset>        
+                        <div class="d-grid">
+                            <input type="submit" value="submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <button class="dark-theme-btn ms-3" id="cambiar-tema">🌙</button>
+    </main>
+    <footer class="text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="#!" role="button">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <!-- Twitter -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="#!" role="button">
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+                <!-- Google -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="#!" role="button">
+                    <i class="fab fa-google"></i>
+                </a>
+
+                <!-- Instagram -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="#!" role="button">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <!-- Linkedin -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;" href="#!" role="button">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <!-- Github -->
+                <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="#!" role="button">
+                    <i class="fab fa-github"></i>
+                </a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: #d90166;">
+            © 2023 Copyright:
+            <span>Paola Gómez</span>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+        <script type="module" src="./assets/js/contact.js"></script>
+</body>
+
+</html>
